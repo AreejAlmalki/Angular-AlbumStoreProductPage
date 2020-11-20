@@ -11,14 +11,14 @@ import {ProductService} from './product.service'
   declarations: [
     AppComponent,
     ProductPageComponent,
-	ProductService
+	
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
